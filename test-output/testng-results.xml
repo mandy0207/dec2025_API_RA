@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-12-31T20:04:21 IST" name="Default suite" finished-at="2025-12-31T20:04:43 IST" duration-ms="22200">
+  <suite started-at="2026-01-02T19:40:16 IST" name="Default suite" finished-at="2026-01-02T19:40:18 IST" duration-ms="2225">
     <groups>
     </groups>
-    <test started-at="2025-12-31T20:04:21 IST" name="Default test" finished-at="2025-12-31T20:04:43 IST" duration-ms="22200">
+    <test started-at="2026-01-02T19:40:16 IST" name="Default test" finished-at="2026-01-02T19:40:18 IST" duration-ms="2225">
       <class name="basics.LBS">
-        <test-method signature="addBook()[pri:0, instance:basics.LBS@4ec4f3a0]" started-at="2025-12-31T20:04:21 IST" name="addBook" finished-at="2025-12-31T20:04:43 IST" duration-ms="21733" status="PASS">
+        <test-method signature="addBook()[pri:0, instance:basics.LBS@4ec4f3a0]" started-at="2026-01-02T19:40:16 IST" name="addBook" finished-at="2026-01-02T19:40:18 IST" duration-ms="2187" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addBook -->

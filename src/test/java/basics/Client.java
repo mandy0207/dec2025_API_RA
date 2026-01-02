@@ -6,10 +6,13 @@ public class Client {
 
 	@Test
 	public void testMethod() {
-		printName("martin");
+		Vehicle carObj = new Vehicle("Skoda", "Car");
+		Vehicle CycleObj = new Vehicle("Hero", "Cycle");
+		carObj.getVehicleName();
+		CycleObj .getVehicleName();
+		
+		
 	}
 	
-	public void printName(String name) {
-		System.out.println("my name is "+ name);
-	}
+	
 }
