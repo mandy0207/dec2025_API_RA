@@ -11,7 +11,12 @@ public class Client {
 		carObj.getVehicleName();
 		CycleObj .getVehicleName();
 		
-		
+		String[] fruits= {"apple", "mango", "orange"};
+
+		for(String fruit : fruits){
+			System.out.println(fruit);
+		}
+
 	}
 	
 	
