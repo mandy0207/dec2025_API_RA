@@ -10,7 +10,6 @@ public class Book {
 	public String name;
 	public String isbn, aisle, author;
 	
-
 	public Book(String name, String isbn, String aisle, String author) {
 		this.name = name;
 		this.isbn = isbn;

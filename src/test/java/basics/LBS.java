@@ -24,7 +24,7 @@ public class LBS {
 	
 		String isbn=UniqueGenerator.getISbn();
 		String aisle = UniqueGenerator.getAisle();
-		
+		//add Book
 		RestAssured.baseURI="http://216.10.245.166";
 	    String addBookresponse=given().log().all().header("Content-Type", "application/json").body(BookPayload.getAddBookPayload(isbn, aisle)).when().post(ApiResources.postBook.getResource())
 	   .then().log().all().assertThat().statusCode(HttpURLConnection.HTTP_OK).body("Msg", equalTo("successfully added")).extract().response().asString();
@@ -39,7 +39,7 @@ public class LBS {
 		 
 		 System.out.println("My Book ID : "+ bookID);
 	
-		 
+	//get BOOK	 
 		String getBookResponse= given().log().all().queryParam("ID", bookID).when().get(ApiResources.getBook.getResource()).then().log().all()
 		 .assertThat().statusCode(HttpURLConnection.HTTP_OK).extract().response().asString();
 
